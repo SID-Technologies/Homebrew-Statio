@@ -1,9 +1,9 @@
 cask "statio" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.0"
-  sha256 arm:   "a89a68c480c3aae5cc95ee1c79352bb3daf7bab3876ad06f0f3599a9198fe7c1",
-         intel: "eb1e18e045260a27ac770a20de0fbb390632257a2f3e4195cac01b9e5375f541"
+  version "0.2.1"
+  sha256 arm:   "e93d8bb262be77487730b9a7d4fd99718e9a34ae7deab0766f700e1dcc20ab8d",
+         intel: "66d7767ee6f9639ec5d016ba85f5928c187a5ba631b1fdc89b6c825f53088aeb"
 
   url "https://storage.googleapis.com/statio-downloads/v#{version}/Statio_#{version}_#{arch}.dmg"
   name "Statio"
