@@ -1,27 +1,27 @@
 class Mcphub < Formula
   desc "Connect your AI clients to the MCP servers your Statio organization grants you"
   homepage "https://statio.dev"
-  version "0.4.6"
+  version "0.4.7"
 
   on_macos do
     on_arm do
-      url "https://storage.googleapis.com/statio-downloads/mcphub/v0.4.6/mcphub_v0.4.6_darwin_arm64.tar.gz"
-      sha256 "4b70a58360c1378d01a665ce47e6b5f35afc9825a0cadbcecefe1f47e39cc797"
+      url "https://storage.googleapis.com/statio-downloads/mcphub/v0.4.7/mcphub_v0.4.7_darwin_arm64.tar.gz"
+      sha256 "bed24e0ca21693e5a7263958dedb9600ae3e3854004200a7d81708a74a07eff6"
     end
     on_intel do
-      url "https://storage.googleapis.com/statio-downloads/mcphub/v0.4.6/mcphub_v0.4.6_darwin_amd64.tar.gz"
-      sha256 "00a9d2da9d9f44b5afcb949fa995dce167a66ac6b0d4d7f77a8162ff7417f866"
+      url "https://storage.googleapis.com/statio-downloads/mcphub/v0.4.7/mcphub_v0.4.7_darwin_amd64.tar.gz"
+      sha256 "aca4a4d2ed66e5ea85dfe921ca235a3f8e587c178326db43c6ac06a4546b9869"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://storage.googleapis.com/statio-downloads/mcphub/v0.4.6/mcphub_v0.4.6_linux_arm64.tar.gz"
-      sha256 "77b78dd4413abfbda2db7e12e6ada7c3f2b9bb3b64c891ae43133e860f7fc0ba"
+      url "https://storage.googleapis.com/statio-downloads/mcphub/v0.4.7/mcphub_v0.4.7_linux_arm64.tar.gz"
+      sha256 "b8c9465865d5cea8c80dc8756ea5801589d2e086ac5abf58dd004048766a05de"
     end
     on_intel do
-      url "https://storage.googleapis.com/statio-downloads/mcphub/v0.4.6/mcphub_v0.4.6_linux_amd64.tar.gz"
-      sha256 "bd1c7a6cc32513b9cde4ec18e8b5ad97ff86f567ef9b834e7677be33a96a8595"
+      url "https://storage.googleapis.com/statio-downloads/mcphub/v0.4.7/mcphub_v0.4.7_linux_amd64.tar.gz"
+      sha256 "0b5c299f3e7d9cd3956c91af9cf963929473b35f36e6cdf84feed5e5fbd7ee8c"
     end
   end
 
